@@ -14,10 +14,10 @@ Full Stack App
 - Add Campgrounds Page route that lists campgrounds
 
 # Each Campground has:
-    - Name
-    - Image
-      - an array and each item in the array is an object
-      - each one has a name and image in key val pairs:
+- Name
+- Image
+  - an array and each item in the array is an object
+  - each one has a name and image in key val pairs:
 
     - [
     {name: "Salmon Creek", image: "http://www.image.com"},
@@ -40,4 +40,4 @@ Full Stack App
 - Setup new campground POST route
 - Add in body-parser
 - Setup route to show form
-- Add basic un-styled form 
+- Add basic un-styled form
