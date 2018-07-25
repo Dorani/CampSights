@@ -19,13 +19,13 @@ Full Stack App
   - an array and each item in the array is an object
   - each one has a name and image in key val pairs:
 
-    - [
-    {name: "Salmon Creek", image: "http://www.image.com"},
-    {name: "Salmon Creek", image: "http://www.image.com"},
-    {name: "Salmon Creek", image: "http://www.image.com"},
-    {name: "Salmon Creek", image: "http://www.image.com"},
-    {name: "Salmon Creek", image: "http://www.image.com"}
-    ]
+        - [
+        {name: "Salmon Creek", image: "http://www.image.com"},
+        {name: "Salmon Creek", image: "http://www.image.com"},
+        {name: "Salmon Creek", image: "http://www.image.com"},
+        {name: "Salmon Creek", image: "http://www.image.com"},
+        {name: "Salmon Creek", image: "http://www.image.com"}
+        ]
 
 
 ## 2nd Step:
