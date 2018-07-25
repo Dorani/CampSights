@@ -1,0 +1,27 @@
+{
+  "name": "campsights",
+  "version": "1.0.0",
+  "description": "CampSights",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dorani/CampSights.git"
+  },
+  "keywords": [
+    "Seif",
+    "D"
+  ],
+  "author": "Seif D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dorani/CampSights/issues"
+  },
+  "homepage": "https://github.com/Dorani/CampSights#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
