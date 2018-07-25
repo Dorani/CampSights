@@ -2,7 +2,7 @@
 Full Stack App
 
 
-## 1st Steps of app
+## 1st Step:
 
     - In the terminal:
       - npm init
@@ -26,3 +26,11 @@ Full Stack App
     {name: "Salmon Creek", image: "http://www.image.com"},
     {name: "Salmon Creek", image: "http://www.image.com"}
     ]
+
+
+## 2nd Step:
+
+### Layout and Basic Styling
+
+    - Create our header and footer partials
+    - Add in Bootstrap
