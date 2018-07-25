@@ -1,12 +1,18 @@
 var express = require("express");
 var app = express();
 
+//sets file types for all responses to ejs
 app.set("view engine", "ejs");
 
+
+
+
+//root route with landing page
 app.get("/", function(req,res){
   res.render("landing");
 });
 
+//campgrounds route with ejs file connected to render the obj
 app.get("/campgrounds", function(req,res){
   var campgrounds = [
     {name: "Salmon Creek", image:"https://pixabay.com/get/e83db50a21f4073ed1584d05fb1d4e97e07ee3d21cac104496f2c57da1ebb4bf_340.jpg"},
