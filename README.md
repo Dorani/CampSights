@@ -4,6 +4,12 @@ Full Stack App
 
 ## 1st Steps of app
 
+    - In the terminal:
+      - npm init
+      - npm install express ejs --save
+      - initialize app to listen for request on localhost:3000
+      - create root route with ejs template:
+
 - Add Landing Page route using EJS
 - Add Campgrounds Page route that lists campgrounds
 
