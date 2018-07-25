@@ -2,7 +2,9 @@ var express = require("express");
 var app = express();
 
 
-
+app.get("/", function(req,res){
+  res.send("this will be the landing page soon");
+});
 
 
 
