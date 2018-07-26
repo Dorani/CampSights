@@ -1,5 +1,6 @@
 var express = require("express");
 var app = express();
+var bodyParser = require("body-parser")
 
 //sets file types for all responses to ejs
 app.set("view engine", "ejs");
