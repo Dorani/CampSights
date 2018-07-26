@@ -38,6 +38,9 @@ Full Stack App
 ### Creating New campgrounds
 
 - Setup new campground POST route
+    - add it to the array
 - Add in body-parser
+    - imported correctly and configured
 - Setup route to show form
+    - so user can send post 
 - Add basic un-styled form

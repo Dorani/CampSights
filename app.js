@@ -25,6 +25,15 @@ app.get("/campgrounds", function(req,res){
 
 
 
+app.post("/campgrounds", function(req, res){
+
+  res.send("you hit the route");
+
+  //get data from form and add to campgrounds array
+
+  //redirect back to campgrounds get route
+});
+
 
 
 //tell express to listen for request (start server)
