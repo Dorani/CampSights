@@ -38,7 +38,9 @@ app.post("/campgrounds", function(req, res){
   //redirect back to campgrounds get route
 });
 
-
+app.get("/campgrounds/new", function(req,res){
+  res.render("new.ejs");
+});
 
 //tell express to listen for request (start server)
 app.listen(3000, function(){
