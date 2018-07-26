@@ -2,6 +2,9 @@ var express = require("express");
 var app = express();
 var bodyParser = require("body-parser")
 
+
+//tells express to use body parser
+app.use(bodyParser.urlencoded({extended: true}));
 //sets file types for all responses to ejs
 app.set("view engine", "ejs");
 
