@@ -42,5 +42,10 @@ Full Stack App
 - Add in body-parser
     - imported correctly and configured
 - Setup route to show form
-    - so user can send post 
+    - so user can send post
 - Add basic un-styled form
+
+### Style the Campgrounds Page
+
+- Add a better header/tit;e
+- make campgrounds display in a grid
