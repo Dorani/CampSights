@@ -49,3 +49,8 @@ Full Stack App
 
 - Add a better header/tit;e
 - make campgrounds display in a grid
+
+### Style the Navbar and form
+
+- Add a navbar to all templates
+- Style the new campground form
