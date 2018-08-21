@@ -10,15 +10,15 @@ app.set("view engine", "ejs");
 
 var campgrounds =
 [
-  {name: "Salmon Creek", image:"https://pixabay.com/get/ea36b70928f21c22d2524518b7444795ea76e5d004b0144297f7c870a0efb4_340.jpg"},
-  {name: "Granite Hill", image:"https://pixabay.com/get/e837b1072af4003ed1584d05fb1d4e97e07ee3d21cac104496f2c670aeeab7b9_340.jpg"},
-  {name: "Mountain Goat's Rest", image:"https://pixabay.com/get/e03db50f2af41c22d2524518b7444795ea76e5d004b0144297f7c870a0efb4_340.jpg"},
-  {name: "Salmon Creek", image:"https://pixabay.com/get/ea36b70928f21c22d2524518b7444795ea76e5d004b0144297f7c870a0efb4_340.jpg"},
-  {name: "Granite Hill", image:"https://pixabay.com/get/e837b1072af4003ed1584d05fb1d4e97e07ee3d21cac104496f2c670aeeab7b9_340.jpg"},
-  {name: "Mountain Goat's Rest", image:"https://pixabay.com/get/e03db50f2af41c22d2524518b7444795ea76e5d004b0144297f7c870a0efb4_340.jpg"},
-  {name: "Salmon Creek", image:"https://pixabay.com/get/ea36b70928f21c22d2524518b7444795ea76e5d004b0144297f7c870a0efb4_340.jpg"},
-  {name: "Granite Hill", image:"https://pixabay.com/get/e837b1072af4003ed1584d05fb1d4e97e07ee3d21cac104496f2c670aeeab7b9_340.jpg"},
-  {name: "Mountain Goat's Rest", image:"https://pixabay.com/get/e03db50f2af41c22d2524518b7444795ea76e5d004b0144297f7c870a0efb4_340.jpg"}
+  {name: "Salmon Creek", image:"https://cdn.pixabay.com/photo/2017/09/26/13/50/rv-2788677_960_720.jpg"},
+  {name: "Granite Hill", image:"https://cdn.pixabay.com/photo/2014/05/03/00/42/vw-camper-336606_960_720.jpg"},
+  {name: "Mountain Goat's Rest", image:"https://cdn.pixabay.com/photo/2014/06/04/16/36/car-repair-362150_960_720.jpg"},
+  {name: "Salmon Creek", image:"https://cdn.pixabay.com/photo/2015/07/09/01/59/picnic-table-837221__340.jpg"},
+  {name: "Granite Hill", image:"https://cdn.pixabay.com/photo/2016/04/28/15/49/airstream-1359135__340.jpg"},
+  {name: "Mountain Goat's Rest", image:"https://cdn.pixabay.com/photo/2016/08/14/01/53/campground-1591949__340.jpg"},
+  {name: "Salmon Creek", image:"https://cdn.pixabay.com/photo/2017/10/07/01/01/bach-leek-2825197__340.jpg"},
+  {name: "Granite Hill", image:"https://cdn.pixabay.com/photo/2018/05/16/15/49/camper-3406137__340.jpg"},
+  {name: "Mountain Goat's Rest", image:"https://cdn.pixabay.com/photo/2017/07/17/16/21/nature-2512944__340.jpg"}
 ];
 
 //root route with landing page
