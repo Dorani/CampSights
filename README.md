@@ -73,3 +73,11 @@ Full Stack App
 - set up campgrounds schema that for now has a name and Image
 - then we compile the schema into a model, ie: code we can use that has a bunch of methods, including find(), create()
 - create: where we take data from the form, we make a new obj as a separate step, then we create from that
+
+
+## 4th step
+
+- Review the RESTful routes we've seen so far
+- Add description to our campground model
+- Show db.collectopn.drop()
+- Add a show route/template
