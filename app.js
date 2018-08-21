@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
-var bodyParser = require("body-parser")
-
+var bodyParser = require("body-parser");
+var mongoose = require('mongoose');
 
 //tells express to use body parser
 app.use(bodyParser.urlencoded({extended: true}));
