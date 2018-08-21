@@ -71,5 +71,5 @@ Full Stack App
 - required mongoose db
 - created and connected to mongoose db called camp_sights
 - set up campgrounds schema that for now has a name and Image
-- then we compile the schema into a model, code we can use that has a bunch of methods, including find()
-- create, where we take data from the form, we make a new obj as a separate step, then we create from that
+- then we compile the schema into a model, ie: code we can use that has a bunch of methods, including find(), create()
+- create: where we take data from the form, we make a new obj as a separate step, then we create from that
