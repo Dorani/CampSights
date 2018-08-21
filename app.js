@@ -13,6 +13,13 @@ app.set("view engine", "ejs");
 //this will create the camp sights DB for us instead of mongodb
 mongoose.connect("mnogodb://localhost/camp_sights");
 
+
+//SCHEMA Setup
+var campgroundSchema = new mongoose.Schema({
+  name: String,
+  image: String
+});
+
 var campgrounds =
 [
   {name: "Salmon Creek", image:"https://cdn.pixabay.com/photo/2017/09/26/13/50/rv-2788677_960_720.jpg"},
