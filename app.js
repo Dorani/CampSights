@@ -8,6 +8,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 //sets file types for all responses to ejs
 app.set("view engine", "ejs");
 
+
+//connect Mongoose
+//this will create the camp sights DB for us instead of mongodb
+mongoose.connect("mnogodb://localhost/camp_sights");
+
 var campgrounds =
 [
   {name: "Salmon Creek", image:"https://cdn.pixabay.com/photo/2017/09/26/13/50/rv-2788677_960_720.jpg"},
