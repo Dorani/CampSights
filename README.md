@@ -64,3 +64,12 @@ Full Stack App
 - Install and configure Mongoose
 - setup campground model
 - use campground model inside of our routes!
+
+
+### For our app:
+
+- required mongoose db
+- created and connected to mongoose db called camp_sights
+- set up campgrounds schema that for now has a name and Image
+- then we compile the schema into a model, code we can use that has a bunch of methods, including find()
+- create, where we take data from the form, we make a new obj as a separate step, then we create from that
