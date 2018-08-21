@@ -20,6 +20,25 @@ var campgroundSchema = new mongoose.Schema({
   image: String
 });
 
+//Compile into a model
+var Campground = mongoose.model("Campground", campgroundSchema);
+Camground.create(
+  {
+      name: "Salmon Creek",
+      image:"https://cdn.pixabay.com/photo/2017/09/26/13/50/rv-2788677_960_720.jpg"
+  },  function(err, campground){
+    if (err){
+      console.log(err);
+    } else {
+      console.log("Newly creaetd campground : ");
+      console.log(campground);
+    }
+  });
+
+
+
+
+
 var campgrounds =
 [
   {name: "Salmon Creek", image:"https://cdn.pixabay.com/photo/2017/09/26/13/50/rv-2788677_960_720.jpg"},
