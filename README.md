@@ -45,6 +45,10 @@ Full Stack App
     - so user can send post
 - Add basic un-styled form
 
+
+
+## 3rd Step:
+
 ### Style the Campgrounds Page
 
 - Add a better header/tit;e
@@ -54,3 +58,9 @@ Full Stack App
 
 - Add a navbar to all templates
 - Style the new campground form
+
+
+###Add Mongoose
+- Install and configure Mongoose
+- setup campground model
+- use campground model inside of our routes!
