@@ -81,3 +81,11 @@ Full Stack App
 - Add description to our campground model
 - Show db.collectopn.drop()
 - Add a show route/template
+
+
+      - Restfull routes
+
+      =========================================
+      name   url    verb    description
+      =========================================
+      Index  /dogs  get     display a list of dogs
