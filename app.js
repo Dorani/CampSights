@@ -27,20 +27,9 @@ var campgroundSchema = new mongoose.Schema({
 });
 
 //Compile into a model
+//The first argument is the singular name of the collection your model is for.
+//Mongoose automatically looks for the plural version of your model name.
 var Campground = mongoose.model("Campground", campgroundSchema);
-
-// Campground.create(
-//   {
-//       name: "Mountain Goat's Rest",
-//       image:"https://cdn.pixabay.com/photo/2014/06/04/16/36/car-repair-362150_960_720.jpg"
-//   },  function(err, campground){
-//     if (err){
-//       console.log(err);
-//     } else {
-//       console.log("Newly creaetd campground : ");
-//       console.log(campground);
-//     }
-//   });
 
 
 //root route with landing page
