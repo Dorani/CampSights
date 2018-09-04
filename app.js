@@ -46,7 +46,7 @@ app.get("/campgrounds", function(req,res){
     if (err){
       console.log(err);
     } else {
-      res.render("campgrounds", {campgrounds: allCamgrounds});
+      res.render("index", {campgrounds: allCamgrounds});
     }
   });
 });
