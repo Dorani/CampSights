@@ -76,12 +76,12 @@ app.post("/campgrounds", function(req, res){
 app.get("/campgrounds/new", function(req,res){
   res.render("new.ejs");
 });
-
+//Show - shows more info about one campgrpound
 app.get('/campgrounds/:id', function(req,res){
   //find the campground with provided id
 
   //render show template on that one campground
-  res.send("this will be the showpage");
+  res.render("show.ejs");
 });
 
 //tell express to listen for request (start server)
