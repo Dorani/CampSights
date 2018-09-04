@@ -24,7 +24,8 @@ mongoose.connect('mongodb://127.0.0.1:27017/camp_sights', options).then(function
 var Schema = mongoose.Schema;
 var campgroundSchema = new Schema({
   name: String,
-  image: String
+  image: String,
+  description: String
 });
 
 //Compile into a model
@@ -74,6 +75,13 @@ app.post("/campgrounds", function(req, res){
 //New - show form to create new campground
 app.get("/campgrounds/new", function(req,res){
   res.render("new.ejs");
+});
+
+app.get('/campgrounds/:id', function(req,res){
+  //find the campground with provided id
+
+  //render show template on that one campground
+  res.send("this will be the showpage");
 });
 
 //tell express to listen for request (start server)
