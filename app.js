@@ -38,7 +38,7 @@ app.get("/", function(req,res){
   res.render("landing");
 });
 
-//campgrounds route with ejs file connected to render the obj
+//Index Route - show all campgrounds
 app.get("/campgrounds", function(req,res){
   //get all camgrounds from DB
   Campground.find({}, function(err, allCamgrounds){
@@ -51,7 +51,7 @@ app.get("/campgrounds", function(req,res){
 });
 
 
-
+//Create Route - add new campground to DB
 app.post("/campgrounds", function(req, res){
 
   //get data from form and add to campgrounds array
@@ -69,6 +69,9 @@ app.post("/campgrounds", function(req, res){
   });
 });
 
+
+
+//New - show form to create new campground
 app.get("/campgrounds/new", function(req,res){
   res.render("new.ejs");
 });
