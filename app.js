@@ -88,3 +88,38 @@ app.get('/campgrounds/:id', function(req,res){
 app.listen(3000, function(){
   console.log("CampSights server has started on 3000");
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//-------------------
+//Dummy data
+Campground.create(
+  {
+    name: "Granite Hill",
+    image: "https://cdn.pixabay.com/photo/2017/09/26/13/50/rv-2788677_1280.jpg",
+    description: "This is a huge Granite Hill, no bathrooms. No water, but beautiful"
+  },
+  function(err, campground){
+    if (err) {
+      console.log(err)
+    } else {
+      console.log('newly created campground');
+      console.log(campground);
+    }
+  });
+//---------------------
