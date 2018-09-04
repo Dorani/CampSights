@@ -86,8 +86,9 @@ Full Stack App
       - Restfull routes
 
       =========================================
-      name   url         verb    description
+      name      url         verb    description
       =========================================
-      Index  /dogs       GET     display a list of dogs
-      New   /dogs/new    GET     add new dog to database
-      Create /dogs       POST    add new dog to the db
+      Index     /dogs        GET     display a list of dogs
+      New       /dogs/new    GET     add new dog to database
+      Create    /dogs        POST    add new dog to the db
+      Show      /dogs/:id    GET     Shows info about one dog
