@@ -79,7 +79,7 @@ Full Stack App
 
 - Review the RESTful routes we've seen so far
 - Add description to our campground model
-- Show db.collectopn.drop()
+- Show db.collection.drop()
 - Add a show route/template
 
 

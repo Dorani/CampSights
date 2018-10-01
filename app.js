@@ -19,7 +19,6 @@ mongoose.connect('mongodb://127.0.0.1:27017/camp_sights', options).then(function
   console.log("we live baby!");
 });
 
-
 //Schema Setup
 var Schema = mongoose.Schema;
 var campgroundSchema = new Schema({
