@@ -78,9 +78,14 @@ app.get("/campgrounds/new", function(req,res){
 //Show - shows more info about one campgrpound
 app.get('/campgrounds/:id', function(req,res){
   //find the campground with provided id
-
-  //render show template on that one campground
-  res.render("show.ejs");
+  CampSights.FindById(req.params.id, function(error, foundCampground){
+    if (error) {
+      console.log(error)
+    } else {
+      //render show template on that one campground
+      res.render("show.ejs", {campground: foundCampground});
+    }
+  })
 });
 
 //tell express to listen for request (start server)
