@@ -15,7 +15,7 @@ var options = {
  useNewUrlParser: true
  };
 
-mongoose.connect('mongodb://127.0.0.1:27017/camp_sights', options).then(function(){
+mongoose.connect('mongodb://localhost:27017/camp_sights', options).then(function(){
   console.log("we live baby!");
 });
 
